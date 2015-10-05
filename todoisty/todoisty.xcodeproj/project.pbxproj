@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28179DEA1BBA2400007C1E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28179DE91BBA2400007C1E64 /* AppDelegate.swift */; };
+		28179DEC1BBA2400007C1E64 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28179DEB1BBA2400007C1E64 /* TableViewController.swift */; };
+		28179DEF1BBA2400007C1E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28179DED1BBA2400007C1E64 /* Main.storyboard */; };
+		28179DF21BBA2400007C1E64 /* todoisty.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 28179DF01BBA2400007C1E64 /* todoisty.xcdatamodeld */; };
+		28179DF41BBA2400007C1E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28179DF31BBA2400007C1E64 /* Assets.xcassets */; };
+		28179DF71BBA2400007C1E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28179DF51BBA2400007C1E64 /* LaunchScreen.storyboard */; };
+		282FD3211BBCDD1B0005E2F3 /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FD3201BBCDD1B0005E2F3 /* ProgressViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		282FD3231BBCE0730005E2F3 /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282FD3221BBCE0730005E2F3 /* AddViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		28179DE61BBA2400007C1E64 /* todoisty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todoisty.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28179DE91BBA2400007C1E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		28179DEB1BBA2400007C1E64 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		28179DEE1BBA2400007C1E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28179DF11BBA2400007C1E64 /* todoisty.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = todoisty.xcdatamodel; sourceTree = "<group>"; };
+		28179DF31BBA2400007C1E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		28179DF61BBA2400007C1E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		28179DF81BBA2400007C1E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282FD3201BBCDD1B0005E2F3 /* ProgressViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		282FD3221BBCE0730005E2F3 /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28179DE31BBA2400007C1E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28179DDD1BBA2400007C1E64 = {
+			isa = PBXGroup;
+			children = (
+				28179DE81BBA2400007C1E64 /* todoisty */,
+				28179DE71BBA2400007C1E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28179DE71BBA2400007C1E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28179DE61BBA2400007C1E64 /* todoisty.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28179DE81BBA2400007C1E64 /* todoisty */ = {
+			isa = PBXGroup;
+			children = (
+				28179DE91BBA2400007C1E64 /* AppDelegate.swift */,
+				28179DEB1BBA2400007C1E64 /* TableViewController.swift */,
+				282FD3221BBCE0730005E2F3 /* AddViewController.swift */,
+				282FD3201BBCDD1B0005E2F3 /* ProgressViewController.swift */,
+				28179DED1BBA2400007C1E64 /* Main.storyboard */,
+				28179DF31BBA2400007C1E64 /* Assets.xcassets */,
+				28179DF51BBA2400007C1E64 /* LaunchScreen.storyboard */,
+				28179DF81BBA2400007C1E64 /* Info.plist */,
+				28179DF01BBA2400007C1E64 /* todoisty.xcdatamodeld */,
+			);
+			path = todoisty;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28179DE51BBA2400007C1E64 /* todoisty */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28179DFB1BBA2400007C1E64 /* Build configuration list for PBXNativeTarget "todoisty" */;
+			buildPhases = (
+				28179DE21BBA2400007C1E64 /* Sources */,
+				28179DE31BBA2400007C1E64 /* Frameworks */,
+				28179DE41BBA2400007C1E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = todoisty;
+			productName = todoisty;
+			productReference = 28179DE61BBA2400007C1E64 /* todoisty.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28179DDE1BBA2400007C1E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Artem Yudin";
+				TargetAttributes = {
+					28179DE51BBA2400007C1E64 = {
+						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = FVX8RDEU6M;
+					};
+				};
+			};
+			buildConfigurationList = 28179DE11BBA2400007C1E64 /* Build configuration list for PBXProject "todoisty" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28179DDD1BBA2400007C1E64;
+			productRefGroup = 28179DE71BBA2400007C1E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28179DE51BBA2400007C1E64 /* todoisty */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28179DE41BBA2400007C1E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28179DF71BBA2400007C1E64 /* LaunchScreen.storyboard in Resources */,
+				28179DF41BBA2400007C1E64 /* Assets.xcassets in Resources */,
+				28179DEF1BBA2400007C1E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28179DE21BBA2400007C1E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282FD3231BBCE0730005E2F3 /* AddViewController.swift in Sources */,
+				28179DEC1BBA2400007C1E64 /* TableViewController.swift in Sources */,
+				28179DF21BBA2400007C1E64 /* todoisty.xcdatamodeld in Sources */,
+				28179DEA1BBA2400007C1E64 /* AppDelegate.swift in Sources */,
+				282FD3211BBCDD1B0005E2F3 /* ProgressViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		28179DED1BBA2400007C1E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28179DEE1BBA2400007C1E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28179DF51BBA2400007C1E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28179DF61BBA2400007C1E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28179DF91BBA2400007C1E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		28179DFA1BBA2400007C1E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28179DFC1BBA2400007C1E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = todoisty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.todoisty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		28179DFD1BBA2400007C1E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = todoisty/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = home.todoisty;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28179DE11BBA2400007C1E64 /* Build configuration list for PBXProject "todoisty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28179DF91BBA2400007C1E64 /* Debug */,
+				28179DFA1BBA2400007C1E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28179DFB1BBA2400007C1E64 /* Build configuration list for PBXNativeTarget "todoisty" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28179DFC1BBA2400007C1E64 /* Debug */,
+				28179DFD1BBA2400007C1E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		28179DF01BBA2400007C1E64 /* todoisty.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				28179DF11BBA2400007C1E64 /* todoisty.xcdatamodel */,
+			);
+			currentVersion = 28179DF11BBA2400007C1E64 /* todoisty.xcdatamodel */;
+			path = todoisty.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 28179DDE1BBA2400007C1E64 /* Project object */;
+}
